@@ -24,20 +24,19 @@
 
 <h5>This memory game is an awesome way to strengthen the back of your brain
 to improve memory capacity!</h5>
-<p>Concentration, also known as Match Match, Memory, Pelmanism,
-  Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the
-  cards are laid face down on a surface and two cards are flipped face up over
-  each turn. The object of the game is to turn over pairs of matching cards.</p>
 
-  <div id ="game">
+  <p>Concentration, also known as Match Match, Memory, Pelmanism,
+    Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the
+    cards are laid face down on a surface and two cards are flipped face up over
+    each turn. The object of the game is to turn over pairs of matching cards.</p>
 
-    <a href="#game">
-    <img src="images/back.png" alt="Queen of Diamonds">
-    <img src="images/back.png" alt="Queen of Hearts">
-    <img src="images/back.png" alt="King of Diamonds">
-    <img src="images/back.png" alt="King of Hearts">
-  </a>
-  </div>
+  <div id ="game-board" class="board clearfix"></div>
+
+<p> Score: <div id = "score"></div></p>
+
+
+<button type = "button" onClick = "resetButton()" value = "reset">Reset</button>
+
 
   <h6>Written by Andrea Piazza.
     <br>Please send comments<a class="smlink" href=mailto:apiazza023@gmail.com>here. </a>
@@ -47,9 +46,10 @@ to improve memory capacity!</h5>
 <footer class="clearfix">
   <p class="copyright">Copyright 2018.</p>
   <p class="message">Created with &hearts; by <a href="https://www.generalassemb.ly">
-    <span class="name">
-    GA</a></span></p>
+    <span class="name"> GA</a></span></p>
 </footer>
+
 <script src="js/main.js"></script>
+
 </body>
 </html>

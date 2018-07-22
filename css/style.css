@@ -76,6 +76,10 @@ p{
   display: inline-block;
   margin-left: 3px;
 }
+button{
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
 footer{
   text-transform: uppercase;
   padding: 0 20px;
